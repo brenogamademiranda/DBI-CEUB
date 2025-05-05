@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE49466F-1375-344F-6511-60580A16EB65" name="historicoimcpessoa">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>2CC9D7DC-E498-397C-EF91-3FE76D0DE51F</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="datamedidaimc" id="3E16D42C-19C0-130E-D2AA-6E834852BAFA">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>D962E449-4A4F-48C4-C31E-6547980F9752</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfpessoa" id="1AAE2AA4-E1CD-A8CC-6016-2437A39AAEE9">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>775879DD-5D77-07AA-2164-A41720CB4AE8</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesopessoa" id="F6CAE20F-83CB-1858-AE04-3860EBBCD091">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>33E64611-4E7A-8AE4-4D27-9C1B1E927F84</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aturapessoa" id="400D74C2-317F-89A2-48EF-A97E4D4FFC37">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>88A6FF36-AF60-C87C-D82D-50D8354C9855</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlrimcpessoa" id="23D5254A-D408-60C8-DC49-343058D911AF">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>28DE050F-BC5C-CC51-C64B-D7DA853A5021</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseimcpessoa" id="F49C40E2-7D8F-D9A3-388A-20E5894C012F">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>02DA4245-C2B0-CDD3-10C7-100DE65E49EC</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfpessoa1" id="BF6F59CE-280D-EC14-B862-E5635431D8FE">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>EC7F96FB-17F4-106B-9B29-5BE4BE1D1EC4</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90DEE33C-74C1-92DE-4B40-27DE7439A9A0" referredColumn="0B7639B3-652F-DE34-D55A-41F11E060B56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97596C4C-4868-7BAE-AB8F-1A6FE74A8AB1" name="historicoimcpessoa_PK">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>89701A6B-AC8C-F76A-CF88-90A03DEB04F7</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E16D42C-19C0-130E-D2AA-6E834852BAFA"/>
+<colUsage columnID="1AAE2AA4-E1CD-A8CC-6016-2437A39AAEE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E93266D-F1B4-E999-F2DB-13DB48AEF6FC" name="calcula">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>A53CB9E0-4BC9-4B3E-3326-20CD4C37126A</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF6F59CE-280D-EC14-B862-E5635431D8FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

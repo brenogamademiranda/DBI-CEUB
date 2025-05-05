@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4EF637D-E0CD-5F3F-6F8F-975E766FD927" name="log_segurança">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-29 00:35:44 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="630AB05E-C721-ECEA-C7A0-8224EF775061">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-29 00:37:35 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="330B8643-462B-8C9D-A3D9-EC070ECBE4F5">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-29 00:37:35 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operaçao" id="00A17D6C-6B0B-BE46-B0F6-CBD4C32714F2">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-29 00:37:35 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

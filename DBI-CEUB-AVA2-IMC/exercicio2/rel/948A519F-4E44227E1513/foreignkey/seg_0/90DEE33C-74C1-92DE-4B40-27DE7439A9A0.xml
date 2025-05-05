@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="90DEE33C-74C1-92DE-4B40-27DE7439A9A0" containerWithKeyObject="DE49466F-1375-344F-6511-60580A16EB65" localFKIndex="7E93266D-F1B4-E999-F2DB-13DB48AEF6FC" name="calcula">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>A53CB9E0-4BC9-4B3E-3326-20CD4C37126A</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<referredTableLongName>Pessoa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5846A9FD-D3C8-E05A-C000-20654BB612AD</referredTableID>
+<keyObject>3A9AFBC1-3AD5-EDC8-D4A1-6D02A53979B2</keyObject>
+<referredKeyID>3A9AFBC1-3AD5-EDC8-D4A1-6D02A53979B2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cpfpessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

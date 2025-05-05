@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="29E89BFE-66DB-53D0-0C2D-38BE034685E0" mainViewID="6F3D1742-028A-7856-4574-31A3A410E441">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-07 23:23:48 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

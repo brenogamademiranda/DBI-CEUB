@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="calcula" directorySegmentName="seg_0" id="A53CB9E0-4BC9-4B3E-3326-20CD4C37126A">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 22:56:05 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="948A519F-0360-8C45-ADED-4E44227E1513" value="true"/>
+</engineerTo>
+<sourcePk>30AF9F30-1B31-779D-980D-5C3DC88A52DA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7774A25-0D9B-289E-979D-347EE5FD414E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2CC9D7DC-E498-397C-EF91-3FE76D0DE51F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

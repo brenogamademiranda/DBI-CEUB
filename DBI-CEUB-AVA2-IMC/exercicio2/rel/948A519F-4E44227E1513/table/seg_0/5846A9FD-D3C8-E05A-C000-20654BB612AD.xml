@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5846A9FD-D3C8-E05A-C000-20654BB612AD" name="Pessoa">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>F7774A25-0D9B-289E-979D-347EE5FD414E</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfpessoa" id="0B7639B3-652F-DE34-D55A-41F11E060B56">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>DD30313C-93AF-3E69-D1A2-59BF2BB82F63</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomepessoa" id="DC89A41F-E01D-46FF-AB2E-9F04C08B44D1">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>3BE40706-01B4-C31C-5BFC-20867F21CD53</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexopessoa" id="EA6CB715-0523-6BAF-09B3-F1DA00ACABBB">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-29 00:25:12 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A9AFBC1-3AD5-EDC8-D4A1-6D02A53979B2" name="Pessoa_PK">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>30AF9F30-1B31-779D-980D-5C3DC88A52DA</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B7639B3-652F-DE34-D55A-41F11E060B56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
