@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="3EFB6B5F-47D9-7404-EDBB-7D4DE48194F7">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-05 23:08:29 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

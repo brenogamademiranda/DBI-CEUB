@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relacao_pedido-produto" directorySegmentName="seg_0" id="15615B54-92EF-DB78-2AAE-B9E382EBCA3B">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:12:25 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<engineerTo>
+<item key="A335DFF4-6067-FFBF-B0CD-82D090C25B86" value="true"/>
+</engineerTo>
+<sourcePk>7EE9EA37-4ECA-B172-1CD6-00881027B7F3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B67581C-E149-5DF2-B49D-F4C7D4813B1D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2675CA00-1FB5-B07D-4253-D4B29F7FD2D0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

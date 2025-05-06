@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2F0B51D-DA65-6AB6-5C4C-5D14FECCA4D1" name="Telefonecliente">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>2A3EC51E-CE9C-747A-4912-5EE1F4EA8F66</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefone" id="4E9A409A-BCFD-220A-A33D-9C2EA2005F56">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>42782A6F-0E7D-94E3-FF2A-203F2655954D</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfdocliente" id="5056E14A-2D79-AE36-A7A0-64ED2AECDF84">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>9BF7DD94-C769-41B8-BF83-A5E7A5083793</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8478F5B6-016F-26C9-78E4-111B7531A635" referredColumn="5B308365-D569-8845-F475-91BC88FBE111"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B52A577-FF2A-9916-7B98-E110A4C67564" name="Relation_2">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>4F087608-D8FD-2285-7CB3-D82676E86253</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5056E14A-2D79-AE36-A7A0-64ED2AECDF84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

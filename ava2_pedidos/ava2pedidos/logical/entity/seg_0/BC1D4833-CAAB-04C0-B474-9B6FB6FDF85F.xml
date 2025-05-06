@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC1D4833-CAAB-04C0-B474-9B6FB6FDF85F" name="Vendedor">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-05 23:14:48 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<engineerTo>
+<item key="A335DFF4-6067-FFBF-B0CD-82D090C25B86" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Vendedor</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomevendedor" id="97C45874-97EE-94DB-23CA-01653BDD1BC7">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-05 23:15:11 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<engineerTo>
+<item key="A335DFF4-6067-FFBF-B0CD-82D090C25B86" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="1A8AC7A9-C742-CC88-79BE-183FF4D2CCC0">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-05 23:15:56 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<engineerTo>
+<item key="A335DFF4-6067-FFBF-B0CD-82D090C25B86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21FEA637-9F5E-285F-89B6-BAB50F916D5B" name="Vendedor PK">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:10:11 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<engineerTo>
+<item key="A335DFF4-6067-FFBF-B0CD-82D090C25B86" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A8AC7A9-C742-CC88-79BE-183FF4D2CCC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

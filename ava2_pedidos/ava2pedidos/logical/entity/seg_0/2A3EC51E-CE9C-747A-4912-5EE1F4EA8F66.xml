@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A3EC51E-CE9C-747A-4912-5EE1F4EA8F66" name="Telefonecliente">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:03:02 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<engineerTo>
+<item key="A335DFF4-6067-FFBF-B0CD-82D090C25B86" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefone" id="42782A6F-0E7D-94E3-FF2A-203F2655954D">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:03:36 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<engineerTo>
+<item key="A335DFF4-6067-FFBF-B0CD-82D090C25B86" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfdocliente" id="9BF7DD94-C769-41B8-BF83-A5E7A5083793">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:07:27 UTC</createdTime>
+<generatorID>4F087608-D8FD-2285-7CB3-D82676E86253</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<engineerTo>
+<item key="A335DFF4-6067-FFBF-B0CD-82D090C25B86" value="true"/>
+</engineerTo>
+<referedAttribute>674C8469-A243-0D6A-A0CA-E7972916D882</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

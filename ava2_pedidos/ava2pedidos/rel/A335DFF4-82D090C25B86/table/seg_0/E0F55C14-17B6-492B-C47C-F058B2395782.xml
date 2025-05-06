@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0F55C14-17B6-492B-C47C-F058B2395782" name="itemsdopedido">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>2675CA00-1FB5-B07D-4253-D4B29F7FD2D0</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigodoproduto" id="A18852AA-9FDC-C33C-7FA3-FB63564B2AB0">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>EB5E522C-7692-DBF5-2EC8-8FC786FDD37F</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="221D999D-9C20-AFC0-7EA9-D70E8ECC317D">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>1876B66E-F0D3-4E11-2692-44D91C2F84D3</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeproduto" id="43C75622-D9AB-9C35-11A1-5CC9B6D6FE79">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>14BC61A9-4D12-CC0E-1A16-9A6A98D134A3</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precounitarioproduto" id="160C6A23-9FBC-B3D1-C491-77B0725DDE29">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>EA5F7CAF-0C78-B2E0-FC37-7045DC4290AC</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificacao" id="EF290D2C-B2B7-7994-1F09-ACD78CE17E43">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>537DBBB8-19BA-B27C-DABE-0BCAD99BF5DC</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB528DA2-87B0-C8E9-D630-58B384203373" referredColumn="35F7B1F9-BD64-086D-1242-D99C9ADF098E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5A71EB6-694C-7B93-9252-47B4B593BEE8" name="itemsdopedido_PK">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>78899B45-6355-40C0-FACB-E3A314C26664</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A18852AA-9FDC-C33C-7FA3-FB63564B2AB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="866B4797-C388-D849-0DC7-0068802700C6" name="relacao_pedido-produto">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>15615B54-92EF-DB78-2AAE-B9E382EBCA3B</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF290D2C-B2B7-7994-1F09-ACD78CE17E43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

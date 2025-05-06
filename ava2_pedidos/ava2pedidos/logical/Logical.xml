@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0E50368D-88AC-5E90-B272-918A34D81216" mainViewID="D146E24C-1498-9E2E-3B25-62E3DA846312">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-05 23:08:28 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="890D31CD-2C70-93C3-0F08-1BF188BD2782" name="enderecocliente">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>3B59D76B-6380-3B76-D242-2BB9A5ED4CED</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<abbreviation>enderecocliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cep" id="BB94A2F2-0682-1240-8D62-EBB906DAFF37">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>47875E11-6F4C-15AB-C982-50C43684BC86</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="A283F8EA-13E2-FAA6-3807-325CF64DEFB1">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>A0E1A1F4-A7C6-DA4B-827C-107F8D161A84</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="95844500-654B-58EA-C23C-DC9D901F3463">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>075C60EA-E8D8-BCEF-0BEF-D7EE1D9B4D3A</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="22A77295-B98A-2E9C-8C66-8BBF7D3BEDEB">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>9A859B73-1495-742A-E822-98B84AA64792</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="D0F52F7D-AD0E-39B8-6457-530D95801CBC">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>6EAB6028-7E42-3A4F-54F5-A900BF2FD1B0</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_6" id="FA88CFF6-8CD1-716E-CE21-B50CDED60E9E">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>1D6342CA-B80E-927E-D113-565147CE89F6</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecocliente_ID" id="F8325901-084A-B30F-A2CE-36A4B0D9163B">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD2F07D4-CBF7-E5A6-CDBA-2B78153F0BFD" name="enderecocliente_PK">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F8325901-084A-B30F-A2CE-36A4B0D9163B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

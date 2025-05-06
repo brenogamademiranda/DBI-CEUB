@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C91258C3-92B0-66A0-EC17-AE8B20B530EE" containerWithKeyObject="7599EA0F-65A6-34ED-9769-631C809D8428" localFKIndex="C4D4DBBB-37AF-395C-CA78-6105C3679094" name="relacao_cliente_pedido">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>6CD7A5B5-B3A4-F93A-9C39-05B9DC952BEC</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<referredTableLongName>cliente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D7A0C4F-E4BD-F4D0-F50E-D812A4B88BE5</referredTableID>
+<keyObject>21CBAF08-A9C1-31FA-A004-12D9DF23A05F</keyObject>
+<referredKeyID>21CBAF08-A9C1-31FA-A004-12D9DF23A05F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpfdocliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

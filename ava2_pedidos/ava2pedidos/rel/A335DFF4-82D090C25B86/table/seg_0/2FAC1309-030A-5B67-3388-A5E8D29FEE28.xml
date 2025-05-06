@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FAC1309-030A-5B67-3388-A5E8D29FEE28" name="Vendedor">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>BC1D4833-CAAB-04C0-B474-9B6FB6FDF85F</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<abbreviation>Vendedor</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomevendedor" id="8A132D92-BDD2-9110-CBAC-104249C2DDF8">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>97C45874-97EE-94DB-23CA-01653BDD1BC7</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="D6E78551-5FAF-D1F7-BEC9-66A92EAAB1B8">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>1A8AC7A9-C742-CC88-79BE-183FF4D2CCC0</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0FE5977-3DDA-E8E4-BAE1-B8350556687C" name="Vendedor_PK">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>21FEA637-9F5E-285F-89B6-BAB50F916D5B</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6E78551-5FAF-D1F7-BEC9-66A92EAAB1B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

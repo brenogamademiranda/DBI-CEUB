@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB43CEB9-A4D8-2B7B-3237-07EE9E1382D9" containerWithKeyObject="3D7A0C4F-E4BD-F4D0-F50E-D812A4B88BE5" localFKIndex="E24F7976-718B-D020-7082-F41E115CD890" name="relacao-cliente-vendedor">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>33A8EE6A-CA05-4296-10CA-4CB195277D54</generatorID>
+<ownerDesignName>ava2pedidos</ownerDesignName>
+<referredTableLongName>Vendedor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2FAC1309-030A-5B67-3388-A5E8D29FEE28</referredTableID>
+<keyObject>A0FE5977-3DDA-E8E4-BAE1-B8350556687C</keyObject>
+<referredKeyID>A0FE5977-3DDA-E8E4-BAE1-B8350556687C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
