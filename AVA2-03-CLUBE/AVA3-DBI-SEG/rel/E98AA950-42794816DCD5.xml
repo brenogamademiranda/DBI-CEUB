@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="E98AA950-491F-A94A-9D5F-42794816DCD5" mainViewID="E59DDDBA-733C-0301-9BE3-8826BD10BADF">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:15:18 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

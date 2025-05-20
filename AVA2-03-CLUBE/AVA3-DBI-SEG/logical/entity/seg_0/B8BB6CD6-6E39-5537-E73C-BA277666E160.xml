@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8BB6CD6-6E39-5537-E73C-BA277666E160" name="Dependete">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:45:49 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Dependete</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="B0883D4A-1A58-DF50-1645-89CAE78EFC5B">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:46:51 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome-dependente" id="403C68CA-9ECE-7CD3-E209-A30425E85502">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:47:44 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>33</dataTypeSize>
+<ownDataTypeParameters>33,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimento_titular" id="00B8DC3A-0C23-0DE5-CFF4-36D4F098724C">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:48:19 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grau_parentesco" id="A902CCFE-E0BC-A332-FB34-D7CAE22DB42F">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:52:45 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="71BAEACD-6886-D04E-4C8C-40AAF4FCCD61">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-20 00:30:27 UTC</createdTime>
+<generatorID>5CC89542-DD9A-8A62-E4D4-36FF6B17D0D7</generatorID>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F30FEF94-D7F4-3CC2-9318-DD68781A87E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0B8778F-428E-935F-9C8E-32ED5374905E" name="Dependete PK">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-20 00:13:30 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0883D4A-1A58-DF50-1645-89CAE78EFC5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

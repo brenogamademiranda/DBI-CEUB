@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BECDB7F-DE46-E2BC-6E12-DA9D327BDA6A" name="Telefone">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:26:57 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Telefone</shortName>
+<synonym>Telefone</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefone" id="2B3B2C6F-BAB8-4E84-72D8-48ED3450D56C">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:29:51 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9CE8C04A-9AFE-EDAB-771F-4D8DDDC9584B">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-20 00:06:40 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="FB2F2054-A5BA-73D8-D90F-84DA4AF089D6">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-20 00:28:40 UTC</createdTime>
+<generatorID>A3809E83-9447-8A9C-3A16-A5FA7433F70F</generatorID>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<referedAttribute>F30FEF94-D7F4-3CC2-9318-DD68781A87E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf2" id="1B58576B-0589-4B5B-EAA0-6BCC8E89AD9E">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-20 00:29:06 UTC</createdTime>
+<generatorID>136F94BB-FB0C-DB87-E878-2D2269BBE63E</generatorID>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<referedAttribute>B0883D4A-1A58-DF50-1645-89CAE78EFC5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AAEB2D88-03D1-EAF5-0BEC-0155AF62FA15" name="Telefone PK">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-20 00:13:44 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<engineerTo>
+<item key="E98AA950-491F-A94A-9D5F-42794816DCD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B3B2C6F-BAB8-4E84-72D8-48ED3450D56C</attributeRef>
+<attributeRef>9CE8C04A-9AFE-EDAB-771F-4D8DDDC9584B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

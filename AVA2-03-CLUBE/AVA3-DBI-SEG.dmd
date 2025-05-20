@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AVA3-DBI-SEG" id="CCF2B5B9-24E2-759D-BE73-14AFA5BFF20D" version="3.5">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:15:16 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CCF2B5B9-24E2-759D-BE73-14AFA5BFF20D</designId>
+</OSDM_Design>

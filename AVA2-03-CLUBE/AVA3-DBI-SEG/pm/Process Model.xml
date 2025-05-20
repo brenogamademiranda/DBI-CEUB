@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="550B4F3E-064D-6911-AF74-A27282AD05A2">
+<createdBy>breno.gama</createdBy>
+<createdTime>2025-05-19 23:15:16 UTC</createdTime>
+<ownerDesignName>AVA3-DBI-SEG</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
