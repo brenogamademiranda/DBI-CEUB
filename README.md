@@ -42,7 +42,8 @@ A disciplina de Banco de Dados tem como objetivo introduzir os conceitos fundame
 ### 🔸 Oracle Database
 - Sistema gerenciador de banco
 
---
+---
+
 # Feedback menção 2 - Atividades avaliativas de práticas de Modelagem de Bando de Dados
 ## a) Efetivou e subiu no GIT:
 
